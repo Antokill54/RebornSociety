@@ -1,51 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\RebornProject.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{CF9FEE47-7EBC-47CF-B25F-B7C37CBE371E}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\RebornProject.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\RebornProjectEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{260DC6F4-A429-4A13-B8C0-2F99B0BF4A81}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\RebornProject">
-      <UniqueIdentifier>{D8898688-61D0-484E-969F-E67D5BAAE924}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\RebornProject\RebornProject.Build.cs">
-      <Filter>Source\RebornProject</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\RebornProject\RebornProject.cpp">
-      <Filter>Source\RebornProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\RebornProject\RebornProject.h">
-      <Filter>Source\RebornProject</Filter>
-    </ClInclude>
-    <Filter Include="Source\RebornProject\Resources">
-      <UniqueIdentifier>{19FBEF42-E351-4C11-B604-14392CF85302}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\RebornProject\Resources\Windows">
-      <UniqueIdentifier>{AB9D3A52-E500-4B1E-95D7-94818DA04668}</UniqueIdentifier>
-    </Filter>
-    <ResourceCompile Include="..\..\Source\RebornProject\Resources\Windows\RebornProject.rc">
-      <Filter>Source\RebornProject\Resources\Windows</Filter>
-    </ResourceCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\RebornProject.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{4AC86AD6-7D24-4743-8D56-6B8DFFEA8CE9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\RebornProject.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\RebornProjectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{C0ABDC0A-3FC5-4D13-8C6D-B14B52BBAE31}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\RebornProject">
+			<UniqueIdentifier>{E1ECA087-4480-485E-9E57-FBD526560FAC}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RebornProject\InventoryActor.cpp">
+			<Filter>Source\RebornProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RebornProject\InventoryActor.h">
+			<Filter>Source\RebornProject</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\RebornProject\RebornProject.Build.cs">
+			<Filter>Source\RebornProject</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\RebornProject\RebornProject.cpp">
+			<Filter>Source\RebornProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RebornProject\RebornProject.h">
+			<Filter>Source\RebornProject</Filter>
+		</ClInclude >
+		<Filter Include="Source\RebornProject\Resources">
+			<UniqueIdentifier>{F4E9B27E-533B-4891-AD07-5045E7E3506B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\RebornProject\Resources\Windows">
+			<UniqueIdentifier>{80812A5A-44E0-4DD3-9D26-7A3E9DFBF425}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\RebornProject\Resources\Windows\RebornProject.rc">
+			<Filter>Source\RebornProject\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
 </Project>
